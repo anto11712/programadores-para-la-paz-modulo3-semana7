@@ -1,0 +1,8 @@
+Que las comunidades puedan registrar y consultar reportes o incidencias en una plataforma tecnologica trae grandes beneficios para la organizacion social.
+Al tener un sistema centralizado, los reportes dejan de perderse en conversaciones informales y quedan disponibles para ser revisados en cualquier momento.
+La posibilidad de consultar los reportes mediante una ruta GET permite que tanto ciudadanos como autoridades tengan visibilidad sobre los problemas reportados.
+Esto genera transparencia, ya que cualquier persona autorizada puede ver el estado y la cantidad de incidencias registradas en la comunidad.
+Ademas, almacenar los reportes con un identificador unico facilita su seguimiento individual, evitando confusiones entre distintos casos.
+Una plataforma como esta tambien permite identificar patrones, como zonas con mas reportes de un mismo tipo, lo cual ayuda a priorizar soluciones.
+Aunque en esta practica los datos se pierden al reiniciar el servidor, este ejercicio es la base para entender como funcionaria un sistema real con una base de datos permanente.
+En conclusion, estructurar el registro y consulta de reportes mediante una API sienta las bases para construir herramientas tecnologicas utiles para la gestion comunitaria.

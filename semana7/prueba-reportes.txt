@@ -1,0 +1,22 @@
+Al consultar la ruta GET /reportes despues de registrar reportes mediante POST, el servidor devuelve un array 
+con todos los reportes guardados en memoria hasta ese momento.
+
+Cada reporte incluye un id generado automaticamente, junto con el tipo y la descripcion enviados originalmente 
+en la peticion POST.
+
+Ejemplo de respuesta obtenida al consultar GET /reportes:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Dano en alumbrado publico"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulacion de residuos en una zona comunitaria"
+  }
+]
+
+Esto demuestra que el array reportes funciona como un almacenamiento temporal en memoria, acumulando cada nuevo 
+registro mientras el servidor permanece encendido.
